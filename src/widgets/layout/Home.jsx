@@ -14,10 +14,10 @@ const customText = (e, i) => {
 
 export function Home() {
   const split = `1. masukkan nama lengkap - 2.masukkan email - 3.masukkan password - 4.konfirmasi password sebelumnya - 5.pilih role optional`;
-  const nav = useNavigate();
-  useEffect(() => {
-    nav("/auth/home", { replace: true });
-  }, []);
+  //const nav = useNavigate();
+//  useEffect(() => {
+//    nav("/auth/home", { replace: true });
+//  }, []);
   return (
     <div className=" container mx-auto">
       <Card className="w-full max-w-full p-4 text-light-blue-400">
